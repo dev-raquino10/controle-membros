@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Cadastro de Membro</title>
+
+    <!-- css style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#home">Membros</a></li>
+        <li><a href="#home">Designações</a></li>
+        <li><a href="#home">Reuniões</a></li>
+        <li><a href="#home">Territórios</a></li>
+    </ul>
+
+    <br>
+
+    <form style="margin: 1%;">
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="inputNome">Nome</label>
+            <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputNomeCompleto">Nome completo</label>
+            <input type="text" class="form-control" id="inputNomeCompleto" placeholder="Nome completo">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputFamilia">Família (Cabeça)</label>
+            <input type="text" class="form-control" id="inputFamilia" placeholder="Família">
+          </div>
+          <label for="inputFamilia" style="margin-left: 5%;"></label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feminino" value="feminino">
+            <label class="form-check-label" for="feminino">Feminino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="masculino" value="masculino">
+            <label class="form-check-label" for="masculino">Masculino</label>
+          </div>
+        </div>
+
+
+        <div class="form-row">
+            <div class="form-group col-md-2">
+              <label for="inputDataNascimento">Data de Nascimento</label>
+              <input type="date" class="form-control" id="inputDataNascimento"> 
+            </div>
+            <div class="form-group col-md-1">
+                <label for="inputIdade">Idade</label>
+                <input type="text" class="form-control" id="inputIdade"> 
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputDataBatismo">Data de Batismo</label>
+                <input type="date" class="form-control" id="inputDataBatismo"> 
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputAnosBatismo">Anos de batismo</label>
+                <input type="text" class="form-control" id="inputAnosBatismo"> 
+            </div>
+            <label for="inputEspaco" style="margin-left: 5%;"></label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao1">
+                <label class="form-check-label" for="inlineCheckbox1">Ancião</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="opcao2">
+                <label class="form-check-label" for="inlineCheckbox2">Servo Ministerial</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="opcao3">
+                <label class="form-check-label" for="inlineCheckbox3">Pioneiro(a) Regular</label>
+              </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-3">
+            <label for="inputTelefone">Telefone</label>
+            <input type="text" class="form-control" id="inputTelefone" placeholder="Telefone">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEmail">E-mail</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="usuarioJw">Usuário JW</label>
+            <input type="text" class="form-control" id="usuarioJw" placeholder="Usuário JW">
+          </div>
+        <div class="form-group col-md-6">
+          <label for="inputendereco">Endereço</label>
+          <input type="text" class="form-control" id="inputendereco" placeholder="Digitar apenas nome da rua e número da residência">
+        </div>
+    </div>
+        <button type="submit" class="btn btn-primary">Salvar dados</button>
+      </form>
+
+</body>
+</html>

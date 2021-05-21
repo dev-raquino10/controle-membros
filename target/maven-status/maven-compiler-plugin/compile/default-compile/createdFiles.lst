@@ -1,0 +1,3 @@
+com\raquino\service\CadastroMembros.class
+com\raquino\vo\MembroVO.class
+com\raquino\controller\CadastroController.class
