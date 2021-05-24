@@ -1,3 +1,9 @@
-com\raquino\service\CadastroMembros.class
-com\raquino\vo\MembroVO.class
-com\raquino\controller\CadastroController.class
+com\raquino\config\WebMvcConfig.class
+com\raquino\controller\MemberController.class
+com\raquino\dao\MemberDAOImpl.class
+com\raquino\entity\Member.class
+com\raquino\service\MemberServiceImpl.class
+com\raquino\config\AppInitializer.class
+com\raquino\service\MemberService.class
+com\raquino\config\AppContext.class
+com\raquino\dao\MemberDAO.class
