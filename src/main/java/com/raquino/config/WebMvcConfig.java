@@ -1,6 +1,7 @@
 package com.raquino.config;
 
 import org.springframework.context.annotation.Bean;
+
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -21,7 +22,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public InternalResourceViewResolver resolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
         resolver.setViewClass(JstlView.class);
-        resolver.setPrefix("/WEB-INF/views/");
+        resolver.setPrefix("/WEB-INF/view/");
         resolver.setSuffix(".jsp");
         return resolver;
     }
@@ -29,7 +30,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry
-            .addResourceHandler("/resources/**")
-            .addResourceLocations("/resources/");
+            .addResourceHandler("resource/**")
+            .addResourceLocations("resource/");
     }
 }
